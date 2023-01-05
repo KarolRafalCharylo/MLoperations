@@ -4,7 +4,7 @@ import sys
 import torch
 import click
 from torch import nn, optim
-
+import PIL
 
 from data import mnist
 from model import MyAwesomeModel
